@@ -53,5 +53,5 @@ Every commit involving AI must be marked with an '*' starting with commit 252.
 > 
 > Version: (nothing, but technically 1.9.9) -> currently working at the game to completely change everything.
 >
-> Worktime: 62 hours
+> Worktime: 66 hours
 > 
