@@ -1,20 +1,3 @@
-[gd_scene format=3 uid="uid://b1636uqslu58g"]
-
-[ext_resource type="Script" uid="uid://dgp6n2ur1tcn5" path="res://script/start_anim.gd" id="1_7wv5m"]
-[ext_resource type="Texture2D" uid="uid://b07w4w3r57vyh" path="res://Assets/Sprites/EndlessTallIcon.png" id="2_52el0"]
+[gd_scene format=3 uid="uid://c8q87ey16xfjs"]
 
 [node name="StartAnim" type="Node2D" unique_id=1327585273]
-
-[node name="transition" type="CanvasLayer" parent="." unique_id=524704508]
-layer = 10
-script = ExtResource("1_7wv5m")
-
-[node name="transition_black" type="TextureRect" parent="transition" unique_id=740053391]
-visible = false
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("2_52el0")
-stretch_mode = 6

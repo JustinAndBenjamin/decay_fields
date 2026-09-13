@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://bh103fta4iryv"]
+
+[ext_resource type="Texture2D" uid="uid://4lsjr07msy3" path="res://assets/sprites/objects/SpeechBubble.png" id="1_0ss60"]
+[ext_resource type="Script" uid="uid://cb4ad0xnohxi4" path="res://script/npc/speech.gd" id="1_f4c0y"]
+
+[node name="SpeechBubble" type="Node" unique_id=1832235820]
+script = ExtResource("1_f4c0y")
+
+[node name="Audio" type="AudioStreamPlayer2D" parent="." unique_id=262373778]
+bus = &"Voice"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1082412016]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=351141887]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="NinePatchRect" type="NinePatchRect" parent="CanvasLayer/Control" unique_id=747427660]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 552.0
+offset_right = 1110.0
+offset_bottom = 648.0
+texture = ExtResource("1_0ss60")
+patch_margin_left = 535
+patch_margin_right = 535
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control" unique_id=1663828235]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 571.0
+offset_right = 1110.0
+offset_bottom = 630.0
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/MarginContainer" unique_id=651151061]
+custom_minimum_size = Vector2(1050, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 32
+vertical_alignment = 1
+autowrap_mode = 3

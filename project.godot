@@ -15,13 +15,13 @@ run/main_scene="uid://drmrayqpc02hp"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 boot_splash/stretch_mode=4
 boot_splash/use_filter=false
-boot_splash/image="uid://0un1sgmcxd8p"
+boot_splash/image="uid://cueve0igu4btq"
 config/icon="uid://0un1sgmcxd8p"
 
 [autoload]
 
-SaveSystem="*uid://b7y7bgxkwyvw1"
-Global="*uid://fmbaq7sauk2f"
+Global="*uid://cjvyd0vuvisnb"
+SaveSystem="*uid://bjdi5sahuu45k"
 
 [display]
 
@@ -30,7 +30,7 @@ window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/virtual_joystick/plugin.cfg")
+enabled=PackedStringArray()
 
 [global_group]
 

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b7nkueiv62aua"
+path="res://.godot/imported/Pixel Orchard.mp3-385a05d384fe256f7a9ea304c06c671a.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/music/Pixel Orchard.mp3"
+dest_files=["res://.godot/imported/Pixel Orchard.mp3-385a05d384fe256f7a9ea304c06c671a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
