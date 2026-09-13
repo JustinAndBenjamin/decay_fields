@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://cj5bsrnsbmw5q"
-path="res://.godot/imported/grass_02.mp3-9d277d956b3879af5b4a054909739a7d.mp3str"
+path="res://.godot/imported/grass_02.mp3-846e5522deba94cde5e1e265501acaed.mp3str"
 
 [deps]
 
-source_file="res://assets/audio/sfx/grass_02.mp3"
-dest_files=["res://.godot/imported/grass_02.mp3-9d277d956b3879af5b4a054909739a7d.mp3str"]
+source_file="res://Assets/audio/sfx/grass_02.mp3"
+dest_files=["res://.godot/imported/grass_02.mp3-846e5522deba94cde5e1e265501acaed.mp3str"]
 
 [params]
 
