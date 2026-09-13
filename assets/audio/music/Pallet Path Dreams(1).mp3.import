@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bd77g3gwyw1vx"
+path="res://.godot/imported/Pallet Path Dreams(1).mp3-9194a63eeac7cdabd42ee98c85a5f7ee.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/music/Pallet Path Dreams(1).mp3"
+dest_files=["res://.godot/imported/Pallet Path Dreams(1).mp3-9194a63eeac7cdabd42ee98c85a5f7ee.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

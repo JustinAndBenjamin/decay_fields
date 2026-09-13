@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bih4e6ih5o0tl"
+path="res://.godot/imported/Pallet Route Loop(1).mp3-50038f4dcfdd3f927379925c05a768e7.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/music/Pallet Route Loop(1).mp3"
+dest_files=["res://.godot/imported/Pallet Route Loop(1).mp3-50038f4dcfdd3f927379925c05a768e7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

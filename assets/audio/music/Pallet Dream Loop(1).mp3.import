@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cu37ylm605vl4"
+path="res://.godot/imported/Pallet Dream Loop(1).mp3-9cbd46a658da53cf6b78167aafc2fda8.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/music/Pallet Dream Loop(1).mp3"
+dest_files=["res://.godot/imported/Pallet Dream Loop(1).mp3-9cbd46a658da53cf6b78167aafc2fda8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
