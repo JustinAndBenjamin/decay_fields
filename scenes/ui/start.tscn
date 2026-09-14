@@ -4,9 +4,9 @@
 [ext_resource type="PackedScene" uid="uid://b4wxbufomix3l" path="res://Scenes/world/maps/map_world_monpok.res" id="2_r48yj"]
 [ext_resource type="PackedScene" uid="uid://soeyg2w5qwpb" path="res://Scenes/debug/npc_test.tscn" id="3_5ogh5"]
 [ext_resource type="PackedScene" uid="uid://daii8sfm5jyug" path="res://Scenes/world/maps/map_house_start.res" id="4_lb6bl"]
-[ext_resource type="Script" uid="uid://6s3a32ht74va" path="res://script/ui/start_anim.gd" id="5_iceld"]
 [ext_resource type="StyleBox" uid="uid://dl16rvfnw7n3k" path="res://Assets/Styles/Buttons/Normal.tres" id="5_o3wvq"]
-[ext_resource type="Texture2D" uid="uid://dcmshfl4hkqd1" path="res://Assets/Sprites/essential/essential_logo_1.1.png" id="6_7pwkw"]
+[ext_resource type="VideoStream" uid="uid://duqmpsat0gqyr" path="res://Assets/video/essential/essential_dfintro.ogv" id="5_o4xuu"]
+[ext_resource type="AudioStream" uid="uid://bk0umioiffjbg" path="res://Assets/audio/music/ambient_start_01.mp3" id="5_vu7r0"]
 [ext_resource type="StyleBox" uid="uid://d3a67n8cntpub" path="res://Assets/Styles/Buttons/PressedandHovered.tres" id="6_pg4io"]
 
 [node name="Start" type="Control" unique_id=224544571]
@@ -21,19 +21,35 @@ scene_1 = ExtResource("2_r48yj")
 scene_2 = ExtResource("3_5ogh5")
 scene_3 = ExtResource("4_lb6bl")
 
-[node name="transition" type="CanvasLayer" parent="." unique_id=1655730715]
-layer = 10
-script = ExtResource("5_iceld")
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer" parent="." unique_id=524460768]
+stream = ExtResource("5_vu7r0")
+volume_db = -10.0
+autoplay = true
+parameters/looping = true
 
-[node name="transition_black" type="TextureRect" parent="transition" unique_id=1665899095]
+[node name="dfintro" type="CanvasLayer" parent="." unique_id=709713002]
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="dfintro" unique_id=1761395848]
+offset_right = 1152.0
+offset_bottom = 648.0
+size_flags_horizontal = 4
+stretch_mode = 3
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="dfintro/AspectRatioContainer" unique_id=1207725066]
+layout_mode = 2
+size_flags_vertical = 3
+stream = ExtResource("5_o4xuu")
+autoplay = true
+expand = true
+
+[node name="dfintro_fade" type="ColorRect" parent="dfintro" unique_id=997833683]
 visible = false
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("6_7pwkw")
-stretch_mode = 6
+color = Color(0, 0, 0, 1)
 
 [node name="monpok_map" type="Button" parent="." unique_id=771893402]
 z_index = 10
@@ -96,10 +112,6 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -17.0
-offset_top = 8.0
-offset_right = -17.0
-offset_bottom = 8.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
