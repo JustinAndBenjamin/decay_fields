@@ -41,6 +41,12 @@ Press <kbd>E</kbd> or the <kbd>I</kbd> button top left to open your inventory.
 - **Code:** Benjamin-306 + JustinCase306
 - *Thanks to all the developers of Godot Engine!*
 
+## Licenses & Credits
+
+This game is open-source and licensed under the **GNU General Public License (GPL)**.
+
+* **Audio & Voices:** The voice lines in the `/assets/audio/` directory were generated with [ElevenLabs](https://elevenlabs.io). They are excluded from the GPL license, restricted to **non-commercial use only**, and require attribution to ElevenLabs if reused.
+
 </details>
 
 # DEVELOPER INFO
