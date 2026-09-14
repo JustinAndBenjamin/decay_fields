@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://c5laq2ns3o04k"]
 
-[ext_resource type="Script" uid="uid://crwkns2cguwob" path="res://script/player/player.gd" id="1_v0iea"]
-[ext_resource type="Texture2D" uid="uid://7no1cxniu74l" path="res://assets/sprites/characters/player_spritesheet.png" id="2_vgqql"]
-[ext_resource type="AudioStream" uid="uid://c10oqvj1khjqg" path="res://assets/audio/sfx/grass_01.mp3" id="3_6t5aa"]
+[ext_resource type="Script" uid="uid://dmngi5stvg3nn" path="res://script/player/player.gd" id="1_v0iea"]
+[ext_resource type="Texture2D" uid="uid://d23lxhomioln4" path="res://assets/sprites/characters/player_spritesheet.png" id="2_vgqql"]
+[ext_resource type="AudioStream" uid="uid://b262hva72cowo" path="res://assets/audio/sfx/grass_01.mp3" id="3_6t5aa"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6t5aa"]
 atlas = ExtResource("2_vgqql")

@@ -5,7 +5,7 @@ extends Control
 @export var scene_3 : PackedScene
 @onready var video_player = $dfintro/AspectRatioContainer/VideoStreamPlayer
 @onready var intro_node = $dfintro
-@onready var music_player = $AudioStreamPlayer
+@onready var music_player = $AudioStreamPlayer2D
 
 func _ready() -> void:
 	if music_player:
