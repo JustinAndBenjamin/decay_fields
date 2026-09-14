@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://soeyg2w5qwpb"]
 
 [ext_resource type="PackedScene" uid="uid://ce2tqbhdypsiw" path="res://scenes/npc/npc.tscn" id="1_oc6g0"]
-[ext_resource type="AudioStream" uid="uid://bpwmenudiloyq" path="res://assets/audio/sfx/EndlessTallGrassTest.wav" id="2_1y6qx"]
+[ext_resource type="AudioStream" uid="uid://dajp5nbxxsrrm" path="res://assets/audio/sfx/EndlessTallGrassTest.wav" id="2_1y6qx"]
 [ext_resource type="PackedScene" uid="uid://daigvy7a3x4jm" path="res://scenes/main.tscn" id="2_oc6g0"]
 
 [node name="NPCTest" type="Node2D" unique_id=1554951800]

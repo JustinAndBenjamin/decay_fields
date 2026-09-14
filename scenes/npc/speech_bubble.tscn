@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bh103fta4iryv"]
 
-[ext_resource type="Texture2D" uid="uid://4lsjr07msy3" path="res://assets/sprites/objects/SpeechBubble.png" id="1_0ss60"]
-[ext_resource type="Script" uid="uid://cb4ad0xnohxi4" path="res://script/npc/speech.gd" id="1_f4c0y"]
+[ext_resource type="Texture2D" uid="uid://bif4bxi45odiq" path="res://assets/sprites/objects/SpeechBubble.png" id="1_0ss60"]
+[ext_resource type="Script" uid="uid://bfiv6ub8m53k6" path="res://script/npc/speech.gd" id="1_f4c0y"]
 
 [node name="SpeechBubble" type="Node" unique_id=1832235820]
 script = ExtResource("1_f4c0y")

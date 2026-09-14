@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cmfshvvasmq6w"]
 
-[ext_resource type="Script" uid="uid://cnqx2fvm866n8" path="res://script/npc/monpokball_giver.gd" id="1_g2bpf"]
-[ext_resource type="Texture2D" uid="uid://bgqldlf7kw3vq" path="res://assets/sprites/objects/dropper_spritesheet.png" id="2_g2bpf"]
+[ext_resource type="Script" uid="uid://d21xy7krcilfs" path="res://script/npc/monpokball_giver.gd" id="1_g2bpf"]
+[ext_resource type="Texture2D" uid="uid://tvv2jbqr33bu" path="res://assets/sprites/objects/dropper_spritesheet.png" id="2_g2bpf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g2bpf"]
 atlas = ExtResource("2_g2bpf")

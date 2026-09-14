@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dajp5nbxxsrrm"
-path="res://.godot/imported/EndlessTallGrassTest.wav-29bad1259bd98e215e71813aedef7a21.sample"
+path="res://.godot/imported/EndlessTallGrassTest.wav-f07b09fb984952ea7c16641f579da08c.sample"
 
 [deps]
 
-source_file="res://Assets/audio/sfx/EndlessTallGrassTest.wav"
-dest_files=["res://.godot/imported/EndlessTallGrassTest.wav-29bad1259bd98e215e71813aedef7a21.sample"]
+source_file="res://assets/audio/sfx/EndlessTallGrassTest.wav"
+dest_files=["res://.godot/imported/EndlessTallGrassTest.wav-f07b09fb984952ea7c16641f579da08c.sample"]
 
 [params]
 

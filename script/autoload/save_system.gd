@@ -26,7 +26,7 @@ func load_game() -> Dictionary:
 	
 	# Standardwerte, falls kein Speicherstand existiert (z. B. beim ersten Spielstart)
 	var default_data = {
-		"current_scene": "res://Maps/World1.tscn", # Pfad zu deiner Start-Map anpassen!
+		"current_scene": "res://maps/World1.tscn", # Pfad zu deiner Start-Map anpassen!
 		"player_position": Vector2(100, 100),       # Startposition im Spiel
 		"inventory": {}                             # Leeres Inventar zu Beginn
 	}
