@@ -8,7 +8,7 @@ func _ready() -> void:
 		inventory = Global.inventar
 		Global.hat_inventar = false
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	for i in inventory:
 		var load_text = inventory[i].keys()[0]
 		var load_image = inventory[i][load_text]
