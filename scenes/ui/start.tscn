@@ -8,6 +8,12 @@
 [ext_resource type="VideoStream" uid="uid://duqmpsat0gqyr" path="res://assets/video/essential/essential_dfintro.ogv" id="5_o4xuu"]
 [ext_resource type="AudioStream" uid="uid://dtjqoei6sunm8" path="res://assets/audio/music/ambient_start_01.mp3" id="5_vu7r0"]
 [ext_resource type="StyleBox" uid="uid://d3a67n8cntpub" path="res://assets/styles/buttons/PressedandHovered.tres" id="6_pg4io"]
+[ext_resource type="Texture2D" uid="uid://dkli8gapvftdk" path="res://assets/sprites/essential/dfstartback.png" id="9_062xv"]
+[ext_resource type="Shader" uid="uid://bvjcfwuruv23c" path="res://scenes/ui/menupanel.gdshader" id="10_2jsse"]
+[ext_resource type="Texture2D" uid="uid://dp3uixj6a3lno" path="res://assets/sprites/essential/ffffff.png" id="10_ic2nn"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2jsse"]
+shader = ExtResource("10_2jsse")
 
 [node name="Start" type="Control" unique_id=224544571]
 layout_mode = 3
@@ -106,7 +112,7 @@ theme_override_styles/pressed = ExtResource("6_pg4io")
 theme_override_styles/hover = ExtResource("6_pg4io")
 text = "L O A D"
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=66317758]
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2073459437]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -114,7 +120,18 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
-color = Color(0, 0.0781342, 0, 1)
+texture = ExtResource("9_062xv")
+stretch_mode = 6
+metadata/_edit_use_anchors_ = true
+
+[node name="menupanel" type="Polygon2D" parent="." unique_id=1647691194]
+texture_filter = 2
+material = SubResource("ShaderMaterial_2jsse")
+scale = Vector2(6.0115356, 1)
+color = Color(0.3529412, 0.3529412, 0.3529412, 0.94509804)
+antialiased = true
+texture = ExtResource("10_ic2nn")
+polygon = PackedVector2Array(57.55601, 0, 39.761936, 647.99994, 0, 647.99994, 0, 0)
 
 [connection signal="pressed" from="monpok_map" to="." method="_on_monpok_map_pressed"]
 [connection signal="pressed" from="npc_test" to="." method="_on_npc_test_pressed"]
