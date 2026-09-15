@@ -1,4 +1,4 @@
-#extends CanvasLayer
+extends CanvasLayer
 #
 #@onready var transition_black: TextureRect = $transition_black
 #
