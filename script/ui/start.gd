@@ -57,3 +57,7 @@ func _on_laden_pressed() -> void:
 	Global.inventar = saved_data["inventory"]
 	Global.hat_inventar = true
 	get_tree().change_scene_to_file(saved_data["current_scene"])
+
+
+func _on_quit_pressed() -> void:
+	get_tree().quit()
