@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://soeyg2w5qwpb"]
 
-[ext_resource type="PackedScene" uid="uid://ce2tqbhdypsiw" path="res://scenes/npc/npc.tscn" id="1_oc6g0"]
-[ext_resource type="AudioStream" uid="uid://dajp5nbxxsrrm" path="res://assets/audio/sfx/EndlessTallGrassTest.wav" id="2_1y6qx"]
-[ext_resource type="PackedScene" uid="uid://daigvy7a3x4jm" path="res://scenes/main.tscn" id="2_oc6g0"]
+[ext_resource type="PackedScene" uid="uid://ce2tqbhdypsiw" path="res://Scenes/npc/npc.tscn" id="1_oc6g0"]
+[ext_resource type="AudioStream" uid="uid://dajp5nbxxsrrm" path="res://Assets/audio/sfx/EndlessTallGrassTest.wav" id="2_1y6qx"]
+[ext_resource type="PackedScene" uid="uid://daigvy7a3x4jm" path="res://Scenes/main.tscn" id="2_oc6g0"]
 
 [node name="NPCTest" type="Node2D" unique_id=1554951800]
 
 [node name="NPC" parent="." unique_id=901332252 instance=ExtResource("1_oc6g0")]
-text = "Hallo, ich bin Professor Müller. Ich soll dir dabei helfen die Außerirdischen von diesem Planeten zu bringen."
+text = "Hallo, ich bin Professor Müller. Ich soll dir dabei helfen die Außerirdischen von diesem Planeten zu 'ENTFERNEN'.."
 speech = ExtResource("2_1y6qx")
 
 [node name="Main" parent="." unique_id=713701403 instance=ExtResource("2_oc6g0")]

@@ -31,4 +31,4 @@ func _on_quit_pressed() -> void:
 
 
 func _on_game_menu_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/start.tscn")
+	get_tree().change_scene_to_file("res://Scenes/start.tscn")
