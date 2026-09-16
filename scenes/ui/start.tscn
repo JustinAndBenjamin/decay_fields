@@ -112,6 +112,20 @@ theme_override_styles/pressed = ExtResource("6_pg4io")
 theme_override_styles/hover = ExtResource("6_pg4io")
 text = "L O A D"
 
+[node name="Quit" type="Button" parent="." unique_id=767549848]
+z_index = 10
+layout_mode = 0
+offset_left = 79.0
+offset_top = 352.0
+offset_right = 193.0
+offset_bottom = 378.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_styles/normal = ExtResource("5_o3wvq")
+theme_override_styles/pressed = ExtResource("6_pg4io")
+theme_override_styles/hover = ExtResource("6_pg4io")
+text = "Q U I T"
+
 [node name="TextureRect" type="TextureRect" parent="." unique_id=2073459437]
 layout_mode = 1
 anchors_preset = 15
@@ -137,3 +151,4 @@ polygon = PackedVector2Array(57.55601, 0, 39.761936, 647.99994, 0, 647.99994, 0,
 [connection signal="pressed" from="npc_test" to="." method="_on_npc_test_pressed"]
 [connection signal="pressed" from="house_map" to="." method="_on_house_map_pressed"]
 [connection signal="pressed" from="Laden" to="." method="_on_laden_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
