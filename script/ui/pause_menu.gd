@@ -20,15 +20,17 @@ func _on_continue_pressed() -> void:
 
 
 func _on_quit_pressed() -> void:
+	save()
+	get_tree().quit()
+
+
+func _on_game_menu_pressed() -> void:
+	save()
+	get_tree().change_scene_to_file("res://Scenes/ui/start.tscn")
+	
+func save() -> void:
 	var scene_path = get_tree().current_scene.scene_file_path
 	var player_pos = %Player.global_position
 	var inventory = []
 	inventory = %Inventory.inventory
 	SaveSystem.save_game(scene_path, player_pos, inventory)
-	
-	
-	get_tree().quit()
-
-
-func _on_game_menu_pressed() -> void:
-	get_tree().change_scene_to_file("res://Scenes/start.tscn")
