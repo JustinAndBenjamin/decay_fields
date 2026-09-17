@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://cj2pnwd8cohko"]
+
+[ext_resource type="VideoStream" uid="uid://ch1w7jfjkfkmu" path="res://Assets/video/essential/essential_dfintro.ogv" id="1_76q32"]
+[ext_resource type="Script" uid="uid://cic1omnqgbj5j" path="res://script/essential/dfintro.gd" id="1_it6g2"]
+
+[node name="dfintro" type="CanvasLayer" unique_id=2084685648]
+script = ExtResource("1_it6g2")
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="." unique_id=502430900]
+offset_right = 1152.0
+offset_bottom = 648.0
+size_flags_horizontal = 4
+stretch_mode = 3
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="AspectRatioContainer" unique_id=345981543]
+layout_mode = 2
+size_flags_vertical = 3
+stream = ExtResource("1_76q32")
+autoplay = true
+expand = true
+
+[node name="dfintro_fade" type="ColorRect" parent="." unique_id=1974953555]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[connection signal="finished" from="AspectRatioContainer/VideoStreamPlayer" to="." method="_on_intro_video_finished"]
