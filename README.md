@@ -30,6 +30,7 @@ Press <kbd>E</kbd> or the <kbd>I</kbd> button top left to open your inventory.
 - **Tilesets:** JustinCase-306
 - **Animations:** JustinCase-306
 - **Placeholder textures:** Benjamin-306
+- **Implement textures:** Benjamin-306
   
 ***Sound:***
 - **Sounddesign:** JustinCase-306
