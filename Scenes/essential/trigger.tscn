@@ -1,11 +1,13 @@
 [gd_scene format=3 uid="uid://discakg7563ob"]
 
 [ext_resource type="Script" uid="uid://b6dj8smnctqho" path="res://script/essential/trigger.gd" id="1_h3q01"]
+[ext_resource type="PackedScene" uid="uid://cj2pnwd8cohko" path="res://Scenes/essential/dfintro.tscn" id="2_6pm4r"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lx53q"]
 
 [node name="Trigger" type="Node2D" unique_id=826910082]
 script = ExtResource("1_h3q01")
+dfintro = ExtResource("2_6pm4r")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=513044924]
 z_index = 20

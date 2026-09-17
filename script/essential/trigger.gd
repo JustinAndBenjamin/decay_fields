@@ -4,6 +4,7 @@ extends Node2D
 @export var tutorial : String
 @export var anim : AnimatedSprite2D
 @export var stop_music : AudioStreamPlayer2D
+@export var dfintro : PackedScene
 
 
 # Called when the node enters the scene tree for the first time.
@@ -21,7 +22,13 @@ func trigger(body) -> void:
 	await timer.timeout
 	if body.name == "Player":
 		if scene:
-			get_tree().change_scene_to_packed(scene)
+			var new_scene = dfintro.instantiate()
+			
+			new_scene.scene = scene
+			
+			get_tree().root.add_child(new_scene)
+			get_tree().current_scene.queue_free()
+			get_tree().current_scene = new_scene
 
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
