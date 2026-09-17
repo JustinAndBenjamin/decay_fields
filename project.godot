@@ -16,7 +16,7 @@ config/features=PackedStringArray("4.7", "GL Compatibility")
 boot_splash/stretch_mode=4
 boot_splash/use_filter=false
 boot_splash/image="uid://cueve0igu4btq"
-config/icon="uid://cp7rwm4th2b7a"
+config/icon="uid://cueve0igu4btq"
 
 [autoload]
 
