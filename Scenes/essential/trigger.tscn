@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://discakg7563ob"]
+
+[ext_resource type="Script" uid="uid://b6dj8smnctqho" path="res://script/essential/trigger.gd" id="1_h3q01"]
+
+[node name="Trigger" type="Node2D" unique_id=826910082]
+script = ExtResource("1_h3q01")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=513044924]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=2028604872]
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
