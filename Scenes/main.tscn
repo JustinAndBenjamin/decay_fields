@@ -150,7 +150,7 @@ limit_smoothed = true
 position_smoothing_enabled = true
 rotation_smoothing_enabled = true
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=562311448]
+[node name="MainMusic" type="AudioStreamPlayer2D" parent="." unique_id=562311448]
 stream = ExtResource("7_344ge")
 autoplay = true
 max_distance = 661160.0
