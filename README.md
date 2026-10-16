@@ -14,7 +14,7 @@ Decay Fields is a 2D Pixel Art game which is still in the phase of beginning dev
 <summary><b>View Controls</b></summary>
 <br>
 
-Use <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>  or <kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd> to move your character around the world and explore new biomes!
+Use <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>  or <kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd> to move your character around the world!
 
 Press <kbd>E</kbd> or the <kbd>I</kbd> button top left to open your inventory.
 
@@ -29,37 +29,46 @@ Press <kbd>E</kbd> or the <kbd>I</kbd> button top left to open your inventory.
 ***Graphics:***
 - **Tilesets:** JustinCase-306
 - **Animations:** JustinCase-306
-- **Placeholder textures:** Benjamin-306
-- **Implement textures:** Benjamin-306
-  
+- 
 ***Sound:***
 - **Sounddesign:** JustinCase-306
-- *Thanks to CoffeeVampir3 and Facebookresearch (Meta) for:*
-  - [Audiocraft WebUI](https://github.com/CoffeeVampir3/audiocraft-webui)
-  - [Audiocraft by Meta](https://github.com/facebookresearch/audiocraft)
-- *TTS by VoiceStudio (https://github.com/debpalash/VoiceStudio)*
+- *thanks to [StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) and [ComfyUI](https://github.com/Comfy-Org/ComfyUI) for the audio and SFX.*
+- *thanks to [VoiceStudio](https://github.com/debpalash/VoiceStudio) for great TTS models.*
 
 ***Coding:***
 - **Code:** Benjamin-306 + JustinCase306
-- *Thanks to all the developers of Godot Engine!*
+- **Readme updating (most important work ever):** the greatest Justin that's ever lived <br>
+*Thanks to all the developers of [Godot Engine](https://github.com/godotengine/godot). You can download Godot [here](https://godotengine.org/download/).*
 
-## Licenses & Credits
+</details>
 
-This game is open-source and licensed under the **GNU General Public License (GPL)**.
+# LICENSES
 
-* **Audio & Voices:** The voice lines in the `/assets/audio/` directory were generated with [ElevenLabs](https://elevenlabs.io). They are excluded from the GPL license, restricted to **non-commercial use only**, and require attribution to ElevenLabs if reused.
+<details>
+<summary><b>View Licenses</b></summary>
+<br>
+  
+This game is open-source and licensed under the **GNU General Public License (GPL)**. <br>
+**Audio & Voices:** The voice lines in the `/assets/audio/` directory were generated with [Stable Audio 3](https://github.com/Stability-AI/stable-audio-3) via [ComfyUI](https://github.com/Comfy-Org/ComfyUI) and [VoiceStudio](https://github.com/debpalash/VoiceStudio).
 
 </details>
 
 # DEVELOPER INFO
-
-Note for developers: 4GDBo full GDJ
+<details>
+<summary><b>View developer info</b></summary>
 <br>
-Every commit involving AI must be marked with an '*' starting with commit 252.
+  
+## Rules
+- every commit involving AI must be marked with an '*' (starting with commit 252)
+- create a new branch before pushing
+- make sure you do not push bugs to github (if you do, it's not that bad)
+</details>
+
+<br><br><br><br>
 
 > [!NOTE]
 > 
-> Version: (nothing, but technically 1.9.9) -> currently working at the game to completely change everything.
+> Version: TECHNICALLY 1.9.9, but in rl nothing
 >
-> Worktime: 71 hours
+> Worktime (does not have to be accurate): 75 hours
 > 
