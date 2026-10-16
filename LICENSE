@@ -661,11 +661,5 @@ For more information on this, and how to apply and follow the GNU AGPL, see
 <https://www.gnu.org/licenses/>.
 
 ---
-LICENSE EXCEPTION (SPLIT-LICENSE):
-The source code of this project is licensed under the GNU General Public License.
-HOWEVER, this license DOES NOT apply to the audio files located in the '/assets/audio/' directory.
-
-The voice files in that directory were generated using the free tier of ElevenLabs. 
-They are subject to ElevenLabs' Terms of Service (non-commercial use only, 
-attribution required) and are excluded from the GPL.
+The voice files in that directory were generated using local AI models and so are license - free. The GNU does also apply to every asset.
 ---
