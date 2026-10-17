@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ba0lwbmpxiyi1"
-path="res://.godot/imported/essential_inventory.png-7937f57805bc9010781a847a7a9f213c.ctex"
+path="res://.godot/imported/essential_inventory.png-9b4acbedc5604e27a8c8c5a165c2f3e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/essential/essential_inventory.png"
-dest_files=["res://.godot/imported/essential_inventory.png-7937f57805bc9010781a847a7a9f213c.ctex"]
+source_file="res://assets/sprites/essential/essential_inventory.png"
+dest_files=["res://.godot/imported/essential_inventory.png-9b4acbedc5604e27a8c8c5a165c2f3e4.ctex"]
 
 [params]
 

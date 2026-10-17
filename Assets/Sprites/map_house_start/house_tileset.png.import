@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7dd7urqj27sh"
-path="res://.godot/imported/house_tileset.png-6461d8679dcc1b7eea5fab517fe68eef.ctex"
+path="res://.godot/imported/house_tileset.png-dc1bbbcb0162e3262f539dba4720fea7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/map_house_start/house_tileset.png"
-dest_files=["res://.godot/imported/house_tileset.png-6461d8679dcc1b7eea5fab517fe68eef.ctex"]
+source_file="res://assets/sprites/map_house_start/house_tileset.png"
+dest_files=["res://.godot/imported/house_tileset.png-dc1bbbcb0162e3262f539dba4720fea7.ctex"]
 
 [params]
 
