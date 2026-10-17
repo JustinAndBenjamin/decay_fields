@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bfnyo2r4owyum"]
+
+[ext_resource type="VideoStream" uid="uid://ci67nrh8fjakd" path="res://Assets/video/test/FIRST LOOK THE ICE CAVES  Minecraft LIVE – SEPT 2026.ogv" id="1_3612m"]
+
+[node name="Television" type="Node2D" unique_id=823584922]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2051124485]
+offset_right = 896.0
+offset_bottom = 512.0
+color = Color(0, 0, 0, 1)
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=1814125720]
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 870.0
+offset_bottom = 496.0
+stream = ExtResource("1_3612m")
+autoplay = true
