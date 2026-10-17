@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://bm43xqwt4hsri"
-path="res://.godot/imported/5nd89scrowdnoise.mp3-515e7b1f07390781cf1d5e1cc123ad3e.mp3str"
+path="res://.godot/imported/5nd89scrowdnoise.mp3-41068a19550ac8d8e527e26377e1ff08.mp3str"
 
 [deps]
 
-source_file="res://assets/audio/sfx/5nd89scrowdnoise.mp3"
-dest_files=["res://.godot/imported/5nd89scrowdnoise.mp3-515e7b1f07390781cf1d5e1cc123ad3e.mp3str"]
+source_file="res://Assets/audio/sfx/5nd89scrowdnoise.mp3"
+dest_files=["res://.godot/imported/5nd89scrowdnoise.mp3-41068a19550ac8d8e527e26377e1ff08.mp3str"]
 
 [params]
 

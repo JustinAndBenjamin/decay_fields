@@ -1,14 +1,15 @@
 [gd_scene format=3 uid="uid://drmrayqpc02hp"]
 
-[ext_resource type="Script" uid="uid://df4evypamom1v" path="res://script/ui/start.gd" id="1_3bxa3"]
+[ext_resource type="Script" uid="uid://cc7avmko8i3vu" path="res://script/ui/start.gd" id="1_3bxa3"]
 [ext_resource type="PackedScene" path="res://scenes/world/maps/map_world_monpok.res" id="2_r48yj"]
-[ext_resource type="PackedScene" uid="uid://soeyg2w5qwpb" path="res://scenes/debug/npc_test.tscn" id="3_5ogh5"]
-[ext_resource type="PackedScene" uid="uid://b8flrbrhqyhi7" path="res://scenes/world/maps/map_house_start.res" id="4_lb6bl"]
-[ext_resource type="StyleBox" uid="uid://dl16rvfnw7n3k" path="res://assets/styles/Buttons/Normal.tres" id="5_o3wvq"]
-[ext_resource type="VideoStream" uid="uid://ch1w7jfjkfkmu" path="res://assets/video/essential/essential_dfintro.ogv" id="5_o4xuu"]
-[ext_resource type="AudioStream" uid="uid://dtjqoei6sunm8" path="res://assets/audio/music/ambient_start_01.mp3" id="5_vu7r0"]
-[ext_resource type="StyleBox" uid="uid://d3a67n8cntpub" path="res://assets/styles/Buttons/PressedandHovered.tres" id="6_pg4io"]
-[ext_resource type="Texture2D" uid="uid://dkli8gapvftdk" path="res://assets/sprites/essential/dfstartback.png" id="9_062xv"]
+[ext_resource type="PackedScene" uid="uid://soeyg2w5qwpb" path="res://Scenes/debug/npc_test.tscn" id="3_5ogh5"]
+[ext_resource type="PackedScene" uid="uid://b8flrbrhqyhi7" path="res://Scenes/world/maps/map_house_start.res" id="4_lb6bl"]
+[ext_resource type="StyleBox" uid="uid://dl16rvfnw7n3k" path="res://Assets/Styles/Buttons/Normal.tres" id="5_o3wvq"]
+[ext_resource type="VideoStream" uid="uid://ch1w7jfjkfkmu" path="res://Assets/video/essential/essential_dfintro.ogv" id="5_o4xuu"]
+[ext_resource type="AudioStream" uid="uid://dtjqoei6sunm8" path="res://Assets/audio/music/ambient_start_01.mp3" id="5_vu7r0"]
+[ext_resource type="StyleBox" uid="uid://d3a67n8cntpub" path="res://Assets/Styles/Buttons/PressedandHovered.tres" id="6_pg4io"]
+[ext_resource type="FontFile" uid="uid://bqwba1kud60jr" path="res://Assets/Fonts/Jersey_10/Jersey10-Regular.ttf" id="8_2rmuv"]
+[ext_resource type="Texture2D" uid="uid://dkli8gapvftdk" path="res://Assets/Sprites/essential/dfstartback.png" id="9_062xv"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hhfpc"]
 bg_color = Color(0.3529412, 0.3529412, 0.3529412, 0.94509804)
@@ -87,6 +88,7 @@ offset_right = 417.0
 offset_bottom = 270.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_2rmuv")
 theme_override_styles/normal = ExtResource("5_o3wvq")
 theme_override_styles/pressed = ExtResource("6_pg4io")
 theme_override_styles/hover = ExtResource("6_pg4io")
@@ -101,6 +103,7 @@ offset_right = 374.0
 offset_bottom = 244.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_2rmuv")
 theme_override_styles/normal = ExtResource("5_o3wvq")
 theme_override_styles/pressed = ExtResource("6_pg4io")
 theme_override_styles/hover = ExtResource("6_pg4io")
@@ -115,6 +118,7 @@ offset_right = 397.0
 offset_bottom = 218.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_2rmuv")
 theme_override_styles/normal = ExtResource("5_o3wvq")
 theme_override_styles/pressed = ExtResource("6_pg4io")
 theme_override_styles/hover = ExtResource("6_pg4io")
@@ -129,6 +133,7 @@ offset_right = 379.0
 offset_bottom = 154.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_2rmuv")
 theme_override_styles/normal = ExtResource("5_o3wvq")
 theme_override_styles/pressed = ExtResource("6_pg4io")
 theme_override_styles/hover = ExtResource("6_pg4io")
@@ -143,6 +148,7 @@ offset_right = 379.0
 offset_bottom = 346.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("8_2rmuv")
 theme_override_styles/normal = ExtResource("5_o3wvq")
 theme_override_styles/pressed = ExtResource("6_pg4io")
 theme_override_styles/hover = ExtResource("6_pg4io")

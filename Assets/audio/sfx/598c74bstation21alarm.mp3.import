@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://nr468p5204d8"
-path="res://.godot/imported/598c74bstation21alarm.mp3-fd6481b6912e3d7cdcb99ad3f03b89da.mp3str"
+path="res://.godot/imported/598c74bstation21alarm.mp3-e7b013e3a2e37f0a595021bb7ed4de87.mp3str"
 
 [deps]
 
-source_file="res://assets/audio/sfx/598c74bstation21alarm.mp3"
-dest_files=["res://.godot/imported/598c74bstation21alarm.mp3-fd6481b6912e3d7cdcb99ad3f03b89da.mp3str"]
+source_file="res://Assets/audio/sfx/598c74bstation21alarm.mp3"
+dest_files=["res://.godot/imported/598c74bstation21alarm.mp3-e7b013e3a2e37f0a595021bb7ed4de87.mp3str"]
 
 [params]
 
