@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://drmrayqpc02hp"]
 
-[ext_resource type="Script" uid="uid://cc7avmko8i3vu" path="res://script/ui/start.gd" id="1_3bxa3"]
+[ext_resource type="Script" uid="uid://df4evypamom1v" path="res://script/ui/start.gd" id="1_3bxa3"]
 [ext_resource type="PackedScene" path="res://Scenes/world/maps/map_world_monpok.res" id="2_r48yj"]
 [ext_resource type="PackedScene" uid="uid://soeyg2w5qwpb" path="res://Scenes/debug/npc_test.tscn" id="3_5ogh5"]
 [ext_resource type="PackedScene" uid="uid://b8flrbrhqyhi7" path="res://Scenes/world/maps/map_house_start.res" id="4_lb6bl"]
