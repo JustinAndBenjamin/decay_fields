@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://discakg7563ob"]
 
-[ext_resource type="Script" uid="uid://b6dj8smnctqho" path="res://script/essential/trigger.gd" id="1_h3q01"]
-[ext_resource type="PackedScene" uid="uid://cj2pnwd8cohko" path="res://Scenes/essential/dfintro.tscn" id="2_6pm4r"]
+[ext_resource type="Script" uid="uid://b8g8ht3whidwg" path="res://script/essential/trigger.gd" id="1_h3q01"]
+[ext_resource type="PackedScene" uid="uid://cj2pnwd8cohko" path="res://scenes/essential/dfintro.tscn" id="2_6pm4r"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lx53q"]
 
